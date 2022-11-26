@@ -4,8 +4,8 @@
          rel="stylesheet"
          href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
       />
-      <link rel="stylesheet" href="index.css" />
-      <script src="/index.js" type="module" defer></script>
+      <link rel="stylesheet" href="./index.css" />
+      <script src="./index.js" type="module" defer></script>
    </head>
    <body>
       <div class="container">
@@ -16,26 +16,32 @@
                <img class="icon" src="images/icon-chat.png" alt="chat" />
             </div>
          </head>
-         <main>
-            <div class="pfp">
-                <img src="images/dog-teddy.jpg" alt="dog">
-                <div class="bio">
-                    <h1>Teddy, 30</h1>
-                    <p>How you doin?</p>
+         <div class="main-section">
+            <main>
+                <div id="pfp">
+                    <!-- <img src="images/dog-teddy.jpg" alt="dog">
+                    <div class="bio">
+                        <h1>Teddy, 30</h1>
+                        <p>How you doin?</p>
+                    </div> -->
+                    <!-- <div class="result yes">
+                        <h1>like</h1>
+                    </div>
+    
+                    <div class="result nope">
+                        <h1>nope</h1>
+                    </div> -->
                 </div>
-                <div class="result">
-                    <h1>like</h1>
+             </main>
+             <footer>
+                <div class="btn cross">
+                    <img src="images/icon-cross.png" alt="deny profile" />
                 </div>
-            </div>
-         </main>
-         <footer>
-            <div class="btn cross">
-                <img src="images/icon-cross.png" alt="deny profile" />
-            </div>
-            <div class="btn heart">
-                <img src="images/icon-heart.png" alt="accept profile" />
-            </div>
-         </footer>
+                <div class="btn heart">
+                    <img src="images/icon-heart.png" alt="accept profile" />
+                </div>
+             </footer>
+         </div>
       </div>
    </body>
 </html>
