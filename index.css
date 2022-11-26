@@ -23,7 +23,6 @@ body {
    cursor: pointer;
 }
 
-
 /* Header */
 
 .header {
@@ -41,7 +40,6 @@ body {
    width: 84px;
    height: 42px;
 }
-
 
 /* Main */
 
@@ -110,7 +108,6 @@ main img {
    font-size: 24px;
 }
 
-
 /* Footer */
 
 footer {
@@ -145,14 +142,13 @@ footer img {
    box-shadow: 0px 10px 20px #edd9df;
 }
 
-
 /* End of User  */
 
 .end-of-user {
-    text-transform: uppercase;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 75%;
-    text-align: center;
+   text-transform: uppercase;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   height: 75%;
+   text-align: center;
 }

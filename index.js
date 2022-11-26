@@ -8,8 +8,6 @@ let currentDog = new Dog(dogsData[currentDogIndex])
 document.querySelector('.heart').addEventListener('click', showLikedDog)
 document.querySelector('.cross').addEventListener('click', showDislikedDog)
 
-console.log(currentDog)
-
 
 function render() {
     document.getElementById("pfp").innerHTML = currentDog.getDogHtml()
@@ -41,6 +39,5 @@ function userLimit(currentDogIndex) {
         <h1 class="end-of-user">There are no more dogs in your area.</h1>`
     }
 }
-
 
 render()

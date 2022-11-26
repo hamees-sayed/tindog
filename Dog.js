@@ -5,11 +5,6 @@ class Dog {
         Object.assign(this, data)
     }
 
-    setMatchStatus(bool){
-        this.hasBeenLiked = bool
-        this.hasBeenSwiped = true
-    }
-
     getDogHtml() {
         const { name, avatar, age, bio } = this
         return `
@@ -33,7 +28,7 @@ class Dog {
         </div>`
     }
 
-    getDislikedDogHtml(){
+    getDislikedDogHtml() {
         const { name, avatar, age, bio } = this
         return `
         <img src="${avatar}" alt="dog">
