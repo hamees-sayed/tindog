@@ -15,7 +15,7 @@ const dogsData = [
         age: 27,
         bio: "How you doin?",
     }, {
-        name: "Dogga Uchiha",
+        name: "Dio",
         avatar: "images/dog-dio.jpg",
         age: 19,
         bio: "I like to stop time.",
